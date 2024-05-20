@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 100%;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar #logo{
+    width: 120px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+#info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+#info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+#info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+#info span{
+    color: rgb(230,104,59);
+}
+
+#info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+#info a:hover{
+    background: rgb(59,174,209);
+}
+
+#image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+#image #me{
+    position: absolute;
+    height: 160%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+}
+
+
+#icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+#icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+#icons ion-icon:hover{
+    color: rgb(255, 27, 27);
+}
+
+#skill{
+    width: 100%;
+    height: 75vh;
+    border-top:5px solid rgb(230,104,59);
+    background: url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#skillset{
+    width:90%;
+    height: 50vh;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+}
+
+#skillset #ion{
+    margin-left: 36%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+#skillset #ion:hover{
+    color: rgb(255, 27, 27);
+}
+
+
+#skill h2{
+    font-family: sans-serif;
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#skill h2 span{
+    font-weight: 900;
+    color: rgb(230,104,59);
+}
+
+#skillset a{
+    text-decoration: none;
+}
+
+#skillset a span{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 62px;
+    font-weight: bold;
+}
+
+#projects{
+    width: 95.5%;
+    background: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    border: 30px solid rgb(230,104,59);;
+}
+#projects #pts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    margin-top: 20px;
+}
+
+#projects h2{
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(230,104,59);
+}
+#projects h2 span{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+#p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    gap: 40px;
+}
+
+#p1 img{
+    height: 200px;
+    width: 110px;
+    margin-left: 30px;
+}
+#p1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#resume{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#resume h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#resume span{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(230,104,59);
+}
+
+#resume a{
+    text-decoration: none; 
+    color: black;  
+}
+
+#resume button{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#contact{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#contact span{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(230,104,59);
+}
+
+#contact p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
